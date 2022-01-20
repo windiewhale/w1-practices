@@ -1,21 +1,111 @@
-body{
+/*body{
     padding: 0;
     margin: 0;
-}
-section{
-    display: flex;
+}*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  }
+
+/*end of css reset*/
+
+  a{
+    display: inline-block;
+    font-size: 60px;
+    width: 400px;
+    height: 200px;
+    background-color: palevioletred;
+    padding: 19px;
+    margin: 20px;
+    border: 20px solid black;
+    border-radius: 100px;
+  }
+  section h1{
+      font-size: 10px;
+  }
+
+  .myFirstClass{
+      background-color: blue;
+      color: white;
+      margin: 20px;
+  }
+  .mySecondClass{
+      font-size: 80px;
+
+  }
+  p.mySecondClass{
+      letter-spacing: 0.6em;
+  }
+  
+  #root{
+      background-color: tomato;
+  }
+  /*html body div section h1 teljes elérési útvonal*/
+/*
+    display: block;
+    font-size: 60px;
+    width: 200px;
+    height: 200px;
+    background-color: palevioletred;
+    padding: 19px;
+    margin: 20px;
+    border: 20px solid black;
+    box-sizing: border-box;
+    border-radius: 100px;
+/*section{
+    display: block;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: fit-content;
     background-color: #00ced1;
     color: rgb(204, 58, 204);
 }
 h1{
     font-family: 'Poppins', sans-serif;
-    font-weight: 100;
+    font-weight: 900;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-weight: bold;
+    font-size: smaller;
+}
+button{
+    background-color: rgb(204, 58, 204);
+    color:#00ced1;
+    font-weight: bolder;
+    border-radius: 12px; 
 }
 /*h1{
     font-family: 'Poppins', sans-serif;
-    font-weight: 100;
+    font-weight: 100;*/
